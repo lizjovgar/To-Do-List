@@ -10,6 +10,14 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var firstLabel: UILabel!
+    
+    @IBAction func firstButton(_ sender: Any) {
+        firstLabel.text = "🐱"
+    }
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
